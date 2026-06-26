@@ -16,3 +16,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## FORGET-ME-NOT
 
 - `FORGET-ME-NOT__forgetmenot_petals_flower_1590335_7647x5098.jpg`
+
+## DAHLIA-MONO
+
+- `DAHLIA-MONO__dahlia_flower_petals_1609744_4584x2847.jpg`
