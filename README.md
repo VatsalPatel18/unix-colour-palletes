@@ -8,6 +8,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `HAWTHORN-BLOOM`
 - `FORGET-ME-NOT`
 - `DAHLIA-MONO`
+- `DRONE-REDLINE`
 
 ## Layout
 
@@ -24,6 +25,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `HAWTHORN-BLOOM` -> `wallpapers/HAWTHORN-BLOOM__court_trees_top_view_122829_1920x1200.jpg`
 - `FORGET-ME-NOT` -> `wallpapers/FORGET-ME-NOT__forgetmenot_petals_flower_1590335_7647x5098.jpg`
 - `DAHLIA-MONO` -> `wallpapers/DAHLIA-MONO__dahlia_flower_petals_1609744_4584x2847.jpg`
+- `DRONE-REDLINE` -> `wallpapers/DRONE-REDLINE__drone_camera_technology_171576_4742x5927.jpg`
 
 ## Usage
 
