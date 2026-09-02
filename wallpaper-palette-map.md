@@ -24,3 +24,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## DRONE-REDLINE
 
 - `DRONE-REDLINE__drone_camera_technology_171576_4742x5927.jpg`
+
+## LILAC-SPRING
+
+- `LILAC-SPRING__lilac_flowers_branch_1569703_3725x2561.jpg`
