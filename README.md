@@ -11,6 +11,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `DRONE-REDLINE`
 - `LILAC-SPRING`
 - `FROSTBLOOM`
+- `COASTAL-HORIZON`
 
 ## Layout
 
@@ -30,6 +31,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `DRONE-REDLINE` -> `wallpapers/DRONE-REDLINE__drone_camera_technology_171576_4742x5927.jpg`
 - `LILAC-SPRING` -> `wallpapers/LILAC-SPRING__lilac_flowers_branch_1569703_3725x2561.jpg`
 - `FROSTBLOOM` -> `wallpapers/FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`
+- `COASTAL-HORIZON` -> `wallpapers/COASTAL-HORIZON__sea_rocks_coast_1679424_3840x2160.jpg`
 
 ## Usage
 

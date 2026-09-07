@@ -32,3 +32,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## FROSTBLOOM
 
 - `FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`
+
+## COASTAL-HORIZON
+
+- `COASTAL-HORIZON__sea_rocks_coast_1679424_3840x2160.jpg`
