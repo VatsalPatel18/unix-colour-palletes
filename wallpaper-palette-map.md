@@ -28,3 +28,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## LILAC-SPRING
 
 - `LILAC-SPRING__lilac_flowers_branch_1569703_3725x2561.jpg`
+
+## FROSTBLOOM
+
+- `FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`

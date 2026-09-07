@@ -10,6 +10,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `DAHLIA-MONO`
 - `DRONE-REDLINE`
 - `LILAC-SPRING`
+- `FROSTBLOOM`
 
 ## Layout
 
@@ -28,6 +29,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `DAHLIA-MONO` -> `wallpapers/DAHLIA-MONO__dahlia_flower_petals_1609744_4584x2847.jpg`
 - `DRONE-REDLINE` -> `wallpapers/DRONE-REDLINE__drone_camera_technology_171576_4742x5927.jpg`
 - `LILAC-SPRING` -> `wallpapers/LILAC-SPRING__lilac_flowers_branch_1569703_3725x2561.jpg`
+- `FROSTBLOOM` -> `wallpapers/FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`
 
 ## Usage
 
