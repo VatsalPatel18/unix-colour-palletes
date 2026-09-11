@@ -12,6 +12,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `LILAC-SPRING`
 - `FROSTBLOOM`
 - `COASTAL-HORIZON`
+- `BLUE-EYED-BLOOM`
 
 ## Layout
 
@@ -32,6 +33,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `LILAC-SPRING` -> `wallpapers/LILAC-SPRING__lilac_flowers_branch_1569703_3725x2561.jpg`
 - `FROSTBLOOM` -> `wallpapers/FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`
 - `COASTAL-HORIZON` -> `wallpapers/COASTAL-HORIZON__sea_rocks_coast_1679424_3840x2160.jpg`
+- `BLUE-EYED-BLOOM` -> `wallpapers/BLUE-EYED-BLOOM__flower_petals_plant_1682116_3840x2160.jpg`
 
 ## Usage
 
