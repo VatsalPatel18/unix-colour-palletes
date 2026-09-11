@@ -40,3 +40,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## BLUE-EYED-BLOOM
 
 - `BLUE-EYED-BLOOM__flower_petals_plant_1682116_3840x2160.jpg`
+
+## EMBER-MARKET
+
+- `EMBER-MARKET__girl_redhead_street_1086393_1920x1080.jpg`

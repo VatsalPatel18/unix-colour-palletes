@@ -13,6 +13,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `FROSTBLOOM`
 - `COASTAL-HORIZON`
 - `BLUE-EYED-BLOOM`
+- `EMBER-MARKET`
 
 ## Layout
 
@@ -34,6 +35,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `FROSTBLOOM` -> `wallpapers/FROSTBLOOM__flowers_frost_petals_1479314_7371x4914.jpg`
 - `COASTAL-HORIZON` -> `wallpapers/COASTAL-HORIZON__sea_rocks_coast_1679424_3840x2160.jpg`
 - `BLUE-EYED-BLOOM` -> `wallpapers/BLUE-EYED-BLOOM__flower_petals_plant_1682116_3840x2160.jpg`
+- `EMBER-MARKET` -> `wallpapers/EMBER-MARKET__girl_redhead_street_1086393_1920x1080.jpg`
 
 ## Usage
 
