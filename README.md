@@ -40,6 +40,7 @@ Ptyxis supports profile opacity but does not provide a native per-profile backgr
 - `palettes/` contains the `.palette` files.
 - `wallpapers/` contains the source wallpapers, renamed with palette prefixes.
 - `scripts/activate-palette.sh` installs and activates one palette in Ptyxis.
+- `skills/ptyxis-palette-studio/` contains the reusable Codex skill for creating and publishing new image-derived palettes.
 
 ## Wallpaper Pairing
 
@@ -80,3 +81,14 @@ Apply the reusable glass effect to any palette:
 ```
 
 If you omit the name, the script prints a list and prompts you to choose.
+
+## Codex Skill
+
+The installed `$ptyxis-palette-studio` skill captures this collection's naming, storage, verification, and publishing workflow. For every new image, specify either **normal** or **Glass Water** style. If the mode is omitted, the skill asks before changing files.
+
+```text
+Use $ptyxis-palette-studio to create a normal palette from this image.
+Use $ptyxis-palette-studio to create a Glass Water palette from this image.
+```
+
+Glass Water remains a reusable profile effect: one base palette and raw wallpaper are stored, while normal and glass profiles can coexist without duplicate `.palette` files.

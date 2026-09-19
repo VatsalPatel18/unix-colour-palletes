@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ptyxis Palette Studio"
+  short_description: "Build image-matched Ptyxis palettes and glass variants"
+  default_prompt: "Use $ptyxis-palette-studio to create a normal or glass terminal palette from my image."
