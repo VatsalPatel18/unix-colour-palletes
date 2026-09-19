@@ -68,8 +68,12 @@ fi
 schema="org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/$uuid/"
 gsettings set "$schema" label "$choice"
 gsettings set "$schema" palette "$choice"
-gsettings set "$schema" opacity 1.0
+opacity=1.0
+if [[ "$choice" == "GLASS-WATER" ]]; then
+  opacity=0.78
+fi
+gsettings set "$schema" opacity "$opacity"
 gsettings set "$schema" bold-is-bright true
 gsettings set org.gnome.Ptyxis default-profile-uuid "$uuid"
 
-printf 'Activated %s\n' "$choice"
+printf 'Activated %s (opacity %s)\n' "$choice" "$opacity"

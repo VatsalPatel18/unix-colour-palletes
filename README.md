@@ -15,6 +15,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `BLUE-EYED-BLOOM`
 - `EMBER-MARKET`
 - `NEON-KIMONO`
+- `GLASS-WATER`
 
 ## Layout
 
@@ -46,5 +47,7 @@ To activate a palette in the current Ubuntu/Ptyxis setup:
 ```bash
 ./scripts/activate-palette.sh DAHLIA-MONO
 ```
+
+`GLASS-WATER` is configured by the script with 78% profile opacity so the desktop wallpaper can show through while the dark water tint keeps terminal text readable.
 
 If you omit the name, the script prints a list and prompts you to choose.
