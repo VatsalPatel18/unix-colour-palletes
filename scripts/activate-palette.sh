@@ -9,12 +9,48 @@ mkdir -p "$active_dir"
 
 mapfile -t palettes < <(find "$palette_dir" -maxdepth 1 -type f -name '*.palette' -printf '%f\n' | sort)
 
-if [[ "${1-}" == "--list" ]]; then
-  printf '%s\n' "${palettes[@]}" | sed 's/\.palette$//'
-  exit 0
-fi
+usage() {
+  printf 'Usage: %s [PALETTE] [--glass]\n' "${0##*/}"
+  printf '       %s --list\n' "${0##*/}"
+}
 
-choice="${1-}"
+choice=""
+glass=false
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --list)
+      if [[ $# -ne 1 ]]; then
+        usage >&2
+        exit 1
+      fi
+      printf '%s\n' "${palettes[@]}" | sed 's/\.palette$//'
+      exit 0
+      ;;
+    --glass)
+      glass=true
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --*)
+      printf 'Unknown option: %s\n' "$1" >&2
+      usage >&2
+      exit 1
+      ;;
+    *)
+      if [[ -n "$choice" ]]; then
+        printf 'Only one palette may be selected.\n' >&2
+        usage >&2
+        exit 1
+      fi
+      choice="$1"
+      ;;
+  esac
+  shift
+done
+
 if [[ -z "$choice" ]]; then
   printf 'Available palettes:\n'
   select item in "${palettes[@]}"; do
@@ -33,13 +69,28 @@ fi
 
 cp "$src" "$active_dir/"
 
+opacity=1.0
+profile_label="$choice"
+
+# GLASS-WATER is the water-tinted preset; --glass applies the same effect to any palette.
+if [[ "$choice" == "GLASS-WATER" ]]; then
+  glass=true
+fi
+
+if [[ "$glass" == true ]]; then
+  opacity=0.78
+  if [[ "$choice" != "GLASS-WATER" ]]; then
+    profile_label="${choice}-GLASS"
+  fi
+fi
+
 profiles_raw="$(gsettings get org.gnome.Ptyxis profile-uuids)"
 profiles="$(printf '%s' "$profiles_raw" | tr -d "[],'")"
 uuid=""
 
 for id in $profiles; do
   label="$(gsettings get "org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/$id/" label | sed "s/^'//; s/'$//")"
-  if [[ "$label" == "$choice" ]]; then
+  if [[ "$label" == "$profile_label" ]]; then
     uuid="$id"
     break
   fi
@@ -66,14 +117,10 @@ if [[ -z "$uuid" ]]; then
 fi
 
 schema="org.gnome.Ptyxis.Profile:/org/gnome/Ptyxis/Profiles/$uuid/"
-gsettings set "$schema" label "$choice"
+gsettings set "$schema" label "$profile_label"
 gsettings set "$schema" palette "$choice"
-opacity=1.0
-if [[ "$choice" == "GLASS-WATER" ]]; then
-  opacity=0.78
-fi
 gsettings set "$schema" opacity "$opacity"
 gsettings set "$schema" bold-is-bright true
 gsettings set org.gnome.Ptyxis default-profile-uuid "$uuid"
 
-printf 'Activated %s (opacity %s)\n' "$choice" "$opacity"
+printf 'Activated %s using palette %s (opacity %s)\n' "$profile_label" "$choice" "$opacity"

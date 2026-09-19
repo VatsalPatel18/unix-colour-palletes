@@ -2,6 +2,8 @@
 
 Custom Ptyxis terminal palettes, matching wallpapers, and a small activation script.
 
+The collection currently contains **12 custom palettes** and **14 paired source wallpapers**.
+
 ## Palettes
 
 - `HAWK-PRIME`
@@ -16,6 +18,22 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `EMBER-MARKET`
 - `NEON-KIMONO`
 - `GLASS-WATER`
+
+## Design Model: Palette + Effect
+
+The collection treats terminal appearance as layers rather than duplicating a palette for every variation.
+
+| Layer | Controls | Example |
+| --- | --- | --- |
+| Base palette | Foreground, background tint, cursor, and ANSI colors | `NEON-KIMONO` |
+| Profile effect | Window opacity and other Ptyxis profile settings | `--glass` |
+| Wallpaper | The desktop image visible behind a translucent terminal | `NEON-KIMONO__girl_kimono_backlight_1168423_1600x900.jpg` |
+
+The reusable `--glass` effect sets the selected palette's Ptyxis profile to 78% opacity. It does not modify or duplicate the underlying `.palette` file. Normal and glass profiles are kept separately, so `NEON-KIMONO` and `NEON-KIMONO-GLASS` can coexist.
+
+`GLASS-WATER` remains a standalone water-tinted base palette and enables the glass effect by default. It is not a copy of `NEON-KIMONO`. A true Neon Kimono glass combination is created by applying `--glass` to `NEON-KIMONO`.
+
+Ptyxis supports profile opacity but does not provide a native per-profile background-image setting. The glass effect therefore reveals the desktop wallpaper or windows behind the terminal; it does not embed an image inside the terminal itself.
 
 ## Layout
 
@@ -48,6 +66,17 @@ To activate a palette in the current Ubuntu/Ptyxis setup:
 ./scripts/activate-palette.sh DAHLIA-MONO
 ```
 
-`GLASS-WATER` is configured by the script with 78% profile opacity so the desktop wallpaper can show through while the dark water tint keeps terminal text readable.
+Apply the reusable glass effect to any palette:
+
+```bash
+./scripts/activate-palette.sh NEON-KIMONO --glass
+./scripts/activate-palette.sh COASTAL-HORIZON --glass
+```
+
+`GLASS-WATER` uses 78% opacity automatically:
+
+```bash
+./scripts/activate-palette.sh GLASS-WATER
+```
 
 If you omit the name, the script prints a list and prompts you to choose.
