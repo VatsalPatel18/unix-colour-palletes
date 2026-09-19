@@ -44,3 +44,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## EMBER-MARKET
 
 - `EMBER-MARKET__girl_redhead_street_1086393_1920x1080.jpg`
+
+## NEON-KIMONO
+
+- `NEON-KIMONO__girl_kimono_backlight_1168423_1600x900.jpg`

@@ -14,6 +14,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `COASTAL-HORIZON`
 - `BLUE-EYED-BLOOM`
 - `EMBER-MARKET`
+- `NEON-KIMONO`
 
 ## Layout
 
@@ -36,6 +37,7 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 - `COASTAL-HORIZON` -> `wallpapers/COASTAL-HORIZON__sea_rocks_coast_1679424_3840x2160.jpg`
 - `BLUE-EYED-BLOOM` -> `wallpapers/BLUE-EYED-BLOOM__flower_petals_plant_1682116_3840x2160.jpg`
 - `EMBER-MARKET` -> `wallpapers/EMBER-MARKET__girl_redhead_street_1086393_1920x1080.jpg`
+- `NEON-KIMONO` -> `wallpapers/NEON-KIMONO__girl_kimono_backlight_1168423_1600x900.jpg`
 
 ## Usage
 
