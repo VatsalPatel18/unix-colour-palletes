@@ -48,3 +48,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## NEON-KIMONO
 
 - `NEON-KIMONO__girl_kimono_backlight_1168423_1600x900.jpg`
+
+## LILAC-GLOW
+
+- `LILAC-GLOW__lilac_flowers_branch_1691525_1920x1200.jpg`
