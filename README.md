@@ -4,6 +4,8 @@ Custom Ptyxis terminal palettes, matching wallpapers, and a small activation scr
 
 The collection currently contains **14 custom palettes** and **16 paired source wallpapers**.
 
+`CANOPY-SKY` uses a warm olive, leaf-green, antique-gold, and terracotta scheme for a warmer glass-terminal option.
+
 ## Palettes
 
 - `HAWK-PRIME`
