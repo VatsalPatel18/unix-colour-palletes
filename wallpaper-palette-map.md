@@ -52,3 +52,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## LILAC-GLOW
 
 - `LILAC-GLOW__lilac_flowers_branch_1691525_1920x1200.jpg`
+
+## CANOPY-SKY
+
+- `CANOPY-SKY__trees_leaves_sky_1621219_3840x2160.jpg`

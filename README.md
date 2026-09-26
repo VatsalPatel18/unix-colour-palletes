@@ -2,7 +2,7 @@
 
 Custom Ptyxis terminal palettes, matching wallpapers, and a small activation script.
 
-The collection currently contains **13 custom palettes** and **15 paired source wallpapers**.
+The collection currently contains **14 custom palettes** and **16 paired source wallpapers**.
 
 ## Palettes
 
@@ -19,6 +19,7 @@ The collection currently contains **13 custom palettes** and **15 paired source 
 - `NEON-KIMONO`
 - `GLASS-WATER`
 - `LILAC-GLOW`
+- `CANOPY-SKY`
 
 ## Design Model: Palette + Effect
 
@@ -60,6 +61,7 @@ Ptyxis supports profile opacity but does not provide a native per-profile backgr
 - `EMBER-MARKET` -> `wallpapers/EMBER-MARKET__girl_redhead_street_1086393_1920x1080.jpg`
 - `NEON-KIMONO` -> `wallpapers/NEON-KIMONO__girl_kimono_backlight_1168423_1600x900.jpg`
 - `LILAC-GLOW` -> `wallpapers/LILAC-GLOW__lilac_flowers_branch_1691525_1920x1200.jpg`
+- `CANOPY-SKY` -> `wallpapers/CANOPY-SKY__trees_leaves_sky_1621219_3840x2160.jpg`
 
 ## Usage
 
