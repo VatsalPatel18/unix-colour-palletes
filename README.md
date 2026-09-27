@@ -6,6 +6,8 @@ The collection currently contains **14 custom palettes** and **16 paired source 
 
 `CANOPY-SKY` uses a warm olive, leaf-green, antique-gold, and terracotta scheme for a warmer glass-terminal option.
 
+`LILAC-GLOW` was revised to a deep plum base with vivid lilac-pink, chartreuse, and warm gold accents; its Glass Water profile keeps the 78% opacity effect.
+
 ## Palettes
 
 - `HAWK-PRIME`
