@@ -56,3 +56,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## CANOPY-SKY
 
 - `CANOPY-SKY__trees_leaves_sky_1621219_3840x2160.jpg`
+
+## JADE-NECTAR
+
+- `JADE-NECTAR__nectarfeeding_bird_bird_male_1707089_2560x1440.jpg`
