@@ -60,3 +60,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## JADE-NECTAR
 
 - `JADE-NECTAR__nectarfeeding_bird_bird_male_1707089_2560x1440.jpg`
+
+## CHEETAH-BARK
+
+- `CHEETAH-BARK__cheetahs_cubs_predators_1713150_1920x1080.jpg`
