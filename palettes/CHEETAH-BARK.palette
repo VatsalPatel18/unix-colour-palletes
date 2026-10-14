@@ -1,6 +1,6 @@
 [Palette]
 Name=CHEETAH-BARK
-Foreground=#F1E9DC
+Foreground=#FFF9EF
 Background=#171715
 Cursor=#E3B45E
 CursorForeground=#171715
@@ -19,12 +19,12 @@ Color3=#B5894C
 Color4=#6B655A
 Color5=#876B54
 Color6=#788078
-Color7=#CFC6B7
-Color8=#38332B
+Color7=#E8E1D7
+Color8=#625D54
 Color9=#D8744C
 Color10=#A5A26A
 Color11=#D6B66A
-Color12=#A39986
+Color12=#B7AE9D
 Color13=#AF8A70
-Color14=#B8BFB0
-Color15=#F6EFE2
+Color14=#D2D7CB
+Color15=#FFF9EF
