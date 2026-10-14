@@ -64,3 +64,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## CHEETAH-BARK
 
 - `CHEETAH-BARK__cheetahs_cubs_predators_1713150_1920x1080.jpg`
+
+## LIGHTHOUSE-TIDE
+
+- `LIGHTHOUSE-TIDE__lighthouse_island_shore_1720745_6144x3330.jpg`
