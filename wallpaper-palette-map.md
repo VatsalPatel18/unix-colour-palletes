@@ -68,3 +68,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## LIGHTHOUSE-TIDE
 
 - `LIGHTHOUSE-TIDE__lighthouse_island_shore_1720745_6144x3330.jpg`
+
+## WOODLAND-WISPS
+
+- `WOODLAND-WISPS__animals_tree_branch_129397_3823x2143.png`

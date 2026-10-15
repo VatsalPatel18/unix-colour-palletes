@@ -2,7 +2,7 @@
 
 Custom Ptyxis terminal palettes, matching wallpapers, and a small activation script.
 
-The collection currently contains **17 custom palettes** and **19 paired source wallpapers**.
+The collection currently contains **18 custom palettes** and **20 paired source wallpapers**.
 
 `CANOPY-SKY` uses a warm olive, leaf-green, antique-gold, and terracotta scheme for a warmer glass-terminal option.
 
@@ -27,6 +27,7 @@ The collection currently contains **17 custom palettes** and **19 paired source 
 - `JADE-NECTAR`
 - `CHEETAH-BARK`
 - `LIGHTHOUSE-TIDE`
+- `WOODLAND-WISPS`
 
 ## Design Model: Palette + Effect
 
@@ -72,6 +73,7 @@ Ptyxis supports profile opacity but does not provide a native per-profile backgr
 - `JADE-NECTAR` -> `wallpapers/JADE-NECTAR__nectarfeeding_bird_bird_male_1707089_2560x1440.jpg`
 - `CHEETAH-BARK` -> `wallpapers/CHEETAH-BARK__cheetahs_cubs_predators_1713150_1920x1080.jpg`
 - `LIGHTHOUSE-TIDE` -> `wallpapers/LIGHTHOUSE-TIDE__lighthouse_island_shore_1720745_6144x3330.jpg`
+- `WOODLAND-WISPS` -> `wallpapers/WOODLAND-WISPS__animals_tree_branch_129397_3823x2143.png`
 
 ## Usage
 
