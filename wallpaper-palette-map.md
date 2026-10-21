@@ -72,3 +72,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## WOODLAND-WISPS
 
 - `WOODLAND-WISPS__animals_tree_branch_129397_3823x2143.png`
+
+## PIKES-PEAK
+
+- `PIKES-PEAK__pikes_peak_mountains_trees_1732605_6240x4160.jpg`
