@@ -76,3 +76,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## PIKES-PEAK
 
 - `PIKES-PEAK__pikes_peak_mountains_trees_1732605_6240x4160.jpg`
+
+## MOORLIGHT
+
+- `MOORLIGHT__landscape_hills_grass_1731497_5184x3888.jpg`
