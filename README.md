@@ -2,7 +2,7 @@
 
 Custom Ptyxis terminal palettes, matching wallpapers, and a small activation script.
 
-The collection currently contains **20 custom palettes** and **22 paired source wallpapers**.
+The collection currently contains **21 custom palettes** and **23 paired source wallpapers**.
 
 `CANOPY-SKY` uses a warm olive, leaf-green, antique-gold, and terracotta scheme for a warmer glass-terminal option.
 
@@ -30,6 +30,7 @@ The collection currently contains **20 custom palettes** and **22 paired source 
 - `WOODLAND-WISPS`
 - `PIKES-PEAK`
 - `MOORLIGHT`
+- `AZURE-CINDER`
 
 ## Design Model: Palette + Effect
 
@@ -78,6 +79,7 @@ Ptyxis supports profile opacity but does not provide a native per-profile backgr
 - `WOODLAND-WISPS` -> `wallpapers/WOODLAND-WISPS__animals_tree_branch_129397_3823x2143.png`
 - `PIKES-PEAK` -> `wallpapers/PIKES-PEAK__pikes_peak_mountains_trees_1732605_6240x4160.jpg`
 - `MOORLIGHT` -> `wallpapers/MOORLIGHT__landscape_hills_grass_1731497_5184x3888.jpg`
+- `AZURE-CINDER` -> `wallpapers/AZURE-CINDER__artist_waves_colorful_129158_3428x2572.png`
 
 ## Usage
 

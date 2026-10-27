@@ -80,3 +80,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## MOORLIGHT
 
 - `MOORLIGHT__landscape_hills_grass_1731497_5184x3888.jpg`
+
+## AZURE-CINDER
+
+- `AZURE-CINDER__artist_waves_colorful_129158_3428x2572.png`
