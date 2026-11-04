@@ -84,3 +84,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## AZURE-CINDER
 
 - `AZURE-CINDER__artist_waves_colorful_129158_3428x2572.png`
+
+## BALLOON-DAWN
+
+- `BALLOON-DAWN__air_balloon_aerostat_art_128614_4068x1932.png`
