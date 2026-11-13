@@ -88,3 +88,7 @@ This repo keeps the wallpapers grouped by the palette they were paired with.
 ## BALLOON-DAWN
 
 - `BALLOON-DAWN__air_balloon_aerostat_art_128614_4068x1932.png`
+
+## ORBITAL-BLOOM
+
+- `ORBITAL-BLOOM__astronaut_swing_bouquet_154206_3840x2968.jpg`
